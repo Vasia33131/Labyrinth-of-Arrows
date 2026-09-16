@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a41f7e2d934b6a9e0c1d5f8a2b4e6c, type: 3}
+  m_Name: BackgroundCatalog
+  m_EditorClassIdentifier: 
+  backgrounds:
+  - id: bg_default
+    displayName: "\u041A\u043B\u0430\u0441\u0441\u0438\u043A\u0430"
+    priceGold: 0
+    unlockByBattlePass: 0
+    sprite: {fileID: 0}
+    tint: {r: 0.1, g: 0.08, b: 0.2, a: 1}
+  - id: bg_witch_grove
+    displayName: "\u0412\u0435\u0434\u044C\u043C\u0438\u043D \u043B\u0435\u0441"
+    priceGold: 500
+    unlockByBattlePass: 0
+    sprite: {fileID: 21300000, guid: 9025ba1e8b763704a8a7b65ed8305d4b, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+  - id: bg_night_elf
+    displayName: "\u041B\u0443\u043D\u043D\u044B\u0439 \u0433\u0440\u043E\u0442"
+    priceGold: 1000
+    unlockByBattlePass: 0
+    sprite: {fileID: 21300000, guid: 77f60e836cda005408dfb684f903f864, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+  - id: bg_neon_city
+    displayName: "\u041D\u0435\u043E\u043D\u043E\u0432\u044B\u0439 \u0433\u043E\u0440\u043E\u0434"
+    priceGold: 1800
+    unlockByBattlePass: 0
+    sprite: {fileID: 21300000, guid: ab3d9c4f4e696b94696d4f088273e162, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+  - id: bg_classroom
+    displayName: "\u041A\u043B\u0430\u0441\u0441\u043D\u0430\u044F \u0434\u043E\u0441\u043A\u0430"
+    priceGold: 0
+    unlockByBattlePass: 1
+    sprite: {fileID: 21300000, guid: cb654c235487780458a1bfef38d7b709, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}

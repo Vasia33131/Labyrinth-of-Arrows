@@ -1,0 +1,55 @@
+Аудио в этой папке — готовые CC0-клипы, переименованные под игру.
+Лицензия: Creative Commons Zero (можно в коммерции без указания автора).
+Авторов всё равно стоит поблагодарить.
+
+=== Sfx/ ===
+
+Kenney (www.kenney.nl) — Interface Sounds, Impact Sounds, Digital Audio,
+RPG Audio, Music Jingles:
+
+  sfx_ui_click.ogg              click_002
+  sfx_ui_open.ogg               maximize_001
+  sfx_ui_close.ogg              minimize_001
+  sfx_arrow_blocked.ogg         impactWood_light_000
+  sfx_arrow_wrong_color.ogg     error_003
+  sfx_candy_land.ogg            drop_002
+  sfx_win.ogg                   jingles_PIZZI10
+  sfx_lose.ogg                  highDown
+  sfx_hint.ogg                  pluck_001
+  sfx_undo.ogg                  scratch_001
+  sfx_extra_move.ogg            powerUp7
+  sfx_gold.ogg                  handleCoins2
+  sfx_buy_ok.ogg                confirmation_001
+  sfx_buy_fail.ogg              error_001
+  sfx_equip.ogg                 confirmation_004
+  sfx_school_book_key.ogg       bookFlip1
+  sfx_school_book_vanish.ogg    bookClose
+  sfx_school_book_blocked.ogg   bookPlace1
+  sfx_school_backpack_slide.ogg dropLeather
+  sfx_school_backpack_blocked.ogg impactSoft_medium_000
+  sfx_school_tutorial_page.ogg  bookFlip2
+
+Micro Pack — Organic Wooshes (CC0):
+
+  sfx_arrow_exit.wav            Gentle Swish
+  sfx_school_pointer_rotate.wav Classic Swish 1
+
+=== Music/ ===
+
+  music_classic_loop.ogg        MintoDog — Cozy Puzzle In-Game 1
+                                https://opengameart.org/content/cozy-puzzle-in-game-1
+
+  music_witch_grove_loop.mp3    cynicmusic / The Cynic Project — Dark Forest Theme
+                                https://opengameart.org/content/dark-forest-theme
+                                pixelsphere.org / cynicmusic.com
+
+  music_night_elf_loop.mp3      cynicmusic / The Cynic Project — Crystal Cave (song18)
+                                https://opengameart.org/content/crystal-cave-song18
+
+  music_neon_city_loop.ogg      Fupi — Synthwave House Loop
+                                https://opengameart.org/content/synthwave-house-loop
+
+  music_classroom_loop.ogg      KiluaBoy — School day / Rain / Sun / Loop
+                                https://opengameart.org/content/school-day-rain-sun-loop
+
+Клипы грузятся из Resources/Audio (Sfx и Music) через GameAudio.

@@ -1,0 +1,23 @@
+{
+  "id": 51,
+  "gridWidth": 10,
+  "gridHeight": 14,
+  "movesLimit": 12,
+  "solution": ["a0", "a1", "a2", "a3", "a4", "a5", "a6", "a7", "a8", "a9", "a10", "a11"],
+  "arrows": [
+    { "id": "a0", "x": 4, "y": 0, "dir": "Left", "color": "DarkBlue", "pathX": [4, 3, 2, 1, 0], "pathY": [0, 0, 0, 0, 0] },
+    { "id": "a1", "x": 5, "y": 1, "dir": "Right", "color": "Blue", "pathX": [5, 5, 6, 7, 8], "pathY": [1, 0, 0, 0, 0] },
+    { "id": "a2", "x": 0, "y": 9, "dir": "Left", "color": "Grey", "pathX": [0, 1, 1, 0], "pathY": [9, 9, 10, 10] },
+    { "id": "a3", "x": 1, "y": 6, "dir": "Down", "color": "Green", "pathX": [1, 0, 0, 0], "pathY": [6, 6, 5, 4], "lockParents": ["a1"] },
+    { "id": "a4", "x": 5, "y": 4, "dir": "Left", "color": "Red", "pathX": [5, 5, 4, 3, 2, 1], "pathY": [4, 3, 3, 3, 3, 3] },
+    { "id": "a5", "x": 3, "y": 6, "dir": "Left", "color": "Yellow", "pathX": [3, 3, 2, 1], "pathY": [6, 5, 5, 5] },
+    { "id": "a6", "x": 3, "y": 8, "dir": "Left", "color": "DarkBlue", "pathX": [3, 3, 2, 1], "pathY": [8, 7, 7, 7] },
+    { "id": "a7", "x": 7, "y": 4, "dir": "Left", "color": "DarkBlue", "pathX": [7, 7, 7, 8, 9, 9, 8], "pathY": [4, 3, 2, 2, 2, 3, 3], "lockParents": ["a4"] },
+    { "id": "a8", "x": 5, "y": 5, "dir": "Up", "color": "Blue", "pathX": [5, 6, 6, 6, 6, 6], "pathY": [5, 5, 6, 7, 8, 9] },
+    { "id": "a9", "x": 7, "y": 5, "dir": "Up", "color": "Grey", "pathX": [7, 8, 8, 8], "pathY": [5, 5, 6, 7] },
+    { "id": "a10", "x": 0, "y": 11, "dir": "Down", "color": "Green", "pathX": [0, 0, 1, 2, 2, 2], "pathY": [11, 12, 12, 12, 11, 10] },
+    { "id": "a11", "x": 3, "y": 10, "dir": "Left", "color": "Red", "pathX": [3, 4, 5, 5, 5, 4, 3], "pathY": [10, 10, 10, 11, 12, 12, 12] }
+  ],
+  "buttons": [
+  ]
+}

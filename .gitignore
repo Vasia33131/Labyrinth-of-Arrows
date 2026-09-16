@@ -1,0 +1,73 @@
+/.idea/
+/obj/
+/Library/
+/.utmp/
+/Temp/
+/Build/
+/Packages/*/
+/Build_*/
+/Recordings/
+/Assets/SweetSugar
+/Assets/SweetSugar.meta
+/Logs/
+/UserSettings/
+/GameSave/
+/GameSave_BACK/
+/Assets/Editor/BuildParams/SendToTelegramParam.asset
+/Assets/Editor/BuildParams/SendToTelegramParam.asset.meta
+/Assets/GeneratedLocalRepo/
+/Assets/AddressableAssetsData/link.xml
+/Assets/AddressableAssetsData/link.xml.meta
+/Assets/Plugins/Android/FirebaseCrashlytics.androidlib/res/values/crashlytics_build_id.xml
+/Assets/Plugins/Android/FirebaseCrashlytics.androidlib/res/values/crashlytics_build_id.xml.meta
+/ProjectSettings/AndroidResolverDependencies.xml
+/ProjectSettings/AndroidResolverDependencies.xml.meta
+/Assets/GeneratedLocalRepo.meta
+/Assets/Plugins/Android/*.aar
+/Assets/Plugins/Android/*.aar.meta
+/Assets/Plugins/Android/*.jar
+/Assets/Plugins/Android/*.jar.meta
+mono_crash*
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
+obj/
+*.svd
+*.userprefs
+/*.csproj
+*.pidb
+*.suo
+/*.sln
+*.user
+*.unityproj
+*.booproj
+/AssetBundles/
+/MemoryCaptures/
+/Assets/Editor/token
+/ProjectSettings/RiderScriptEditorPersistedState.asset
+/Assets/Prefabs/World/untracked
+/Assets/Prefabs/World/untracked.meta
+/Assets/AddressableAssetsData/iOS
+/Assets/AddressableAssetsData/Android
+/Assets/AddressableAssetsData/Android.meta
+/Assets/AddressableAssetsData/iOS.meta
+/ProjectSettings/GvhProjectSettings.xml
+/ProjectSettings/GvhProjectSettings.xml.meta
+
+# Ignore temporaries from GameCI
+/[Aa]rtifacts/
+/[Cc]odeCoverage/
+

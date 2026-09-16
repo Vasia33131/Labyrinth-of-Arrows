@@ -1,0 +1,49 @@
+{
+  "id": 9,
+  "gridWidth": 14,
+  "gridHeight": 18,
+  "movesLimit": 26,
+  "solution": ["a0", "a1", "a2", "a3", "a4", "a5", "a6", "a7", "a8", "a9", "a10", "a11", "a12", "a13", "a14", "a15", "a16", "a17", "a18", "a19", "a21", "a25", "bp1:+", "a20", "a22", "a23", "a24"],
+  "arrows": [
+    { "id": "a0", "x": 13, "y": 16, "dir": "Right", "color": "DarkBlue", "pathX": [13, 13, 12, 11, 11, 12], "pathY": [16, 17, 17, 17, 16, 16] },
+    { "id": "a1", "x": 10, "y": 16, "dir": "Up", "color": "Blue", "pathX": [10, 10, 9, 9, 8, 8], "pathY": [16, 17, 17, 16, 16, 17] },
+    { "id": "a2", "x": 2, "y": 17, "dir": "Up", "color": "Grey", "pathX": [2, 3, 3, 4, 4, 5, 6, 6, 6], "pathY": [17, 17, 16, 16, 15, 15, 15, 16, 17], "lockParents": ["a1"] },
+    { "id": "a3", "x": 7, "y": 17, "dir": "Right", "color": "Green", "pathX": [7, 7, 7, 8, 9, 10, 11, 12, 13], "pathY": [17, 16, 15, 15, 15, 15, 15, 15, 15] },
+    { "id": "a4", "x": 0, "y": 10, "dir": "Right", "color": "Red", "pathX": [0, 0, 0, 0, 0, 0, 0, 0, 1], "pathY": [10, 11, 12, 13, 14, 15, 16, 17, 17], "lockParents": ["a2"] },
+    { "id": "a5", "x": 12, "y": 12, "dir": "Up", "color": "Yellow", "pathX": [12, 13, 13, 13, 12, 12, 11, 11], "pathY": [12, 12, 13, 14, 14, 13, 13, 14] },
+    { "id": "a6", "x": 2, "y": 5, "dir": "Up", "color": "DarkBlue", "pathX": [2, 1, 0, 0, 0, 0], "pathY": [5, 5, 5, 6, 7, 8], "lockParents": ["a0"] },
+    { "id": "a7", "x": 7, "y": 7, "dir": "Right", "color": "DarkBlue", "pathX": [7, 7, 7, 8, 9, 9, 9, 10, 10, 11], "pathY": [7, 8, 9, 9, 9, 10, 11, 11, 12, 12] },
+    { "id": "a8", "x": 10, "y": 6, "dir": "Up", "color": "Blue", "pathX": [10, 10, 9, 8, 8, 9, 10, 10, 10, 11, 11], "pathY": [6, 7, 7, 7, 8, 8, 8, 9, 10, 10, 11] },
+    { "id": "a9", "x": 12, "y": 6, "dir": "Up", "color": "Grey", "pathX": [12, 13, 13, 12, 12, 11, 11], "pathY": [6, 6, 7, 7, 8, 8, 9] },
+    { "id": "a10", "x": 12, "y": 2, "dir": "Up", "color": "Green", "pathX": [12, 13, 13, 13, 13, 12, 11, 11, 11], "pathY": [2, 2, 3, 4, 5, 5, 5, 6, 7], "lockParents": ["a0"] },
+    { "id": "a11", "x": 10, "y": 4, "dir": "Right", "color": "Red", "pathX": [10, 10, 10, 10, 10, 11, 11, 11, 11, 11, 12], "pathY": [4, 3, 2, 1, 0, 0, 1, 2, 3, 4, 4] },
+    { "id": "a12", "x": 12, "y": 10, "dir": "Down", "color": "Yellow", "pathX": [12, 12, 13, 13, 13, 13], "pathY": [10, 11, 11, 10, 9, 8] },
+    { "id": "a13", "x": 7, "y": 1, "dir": "Right", "color": "DarkBlue", "pathX": [7, 6, 6, 6, 6, 6, 7, 8, 9, 10], "pathY": [1, 1, 2, 3, 4, 5, 5, 5, 5, 5] },
+    { "id": "a14", "x": 6, "y": 0, "dir": "Down", "color": "DarkBlue", "pathX": [6, 7, 8, 9, 9, 9, 9, 9, 8, 7, 7], "pathY": [0, 0, 0, 0, 1, 2, 3, 4, 4, 4, 3], "lockParents": ["a10"] },
+    { "id": "a15", "x": 1, "y": 1, "dir": "Right", "color": "Blue", "pathX": [1, 0, 0, 1, 2, 3, 4, 5], "pathY": [1, 1, 0, 0, 0, 0, 0, 0], "lockParents": ["a5"] },
+    { "id": "a16", "x": 1, "y": 3, "dir": "Down", "color": "Grey", "pathX": [1, 1, 0, 0, 0, 1, 2, 2, 2, 2], "pathY": [3, 2, 2, 3, 4, 4, 4, 3, 2, 1], "lockParents": ["a5"] },
+    { "id": "a17", "x": 8, "y": 10, "dir": "Right", "color": "Green", "pathX": [8, 7, 6, 6, 6, 6, 6, 7, 8, 9], "pathY": [10, 10, 10, 9, 8, 7, 6, 6, 6, 6] },
+    { "id": "a18", "x": 3, "y": 15, "dir": "Down", "color": "Red", "pathX": [3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2], "pathY": [15, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6] },
+    { "id": "a19", "x": 2, "y": 16, "dir": "Down", "color": "Yellow", "pathX": [2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], "pathY": [16, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7], "lockParents": ["a14"] },
+    { "id": "a20", "x": 3, "y": 7, "dir": "Right", "color": "DarkBlue", "pathX": [3, 3, 3, 3, 3, 3, 3, 4, 5], "pathY": [7, 6, 5, 4, 3, 2, 1, 1, 1] },
+    { "id": "a21", "x": 5, "y": 3, "dir": "Right", "color": "DarkBlue", "pathX": [5, 5, 4, 4, 4, 5], "pathY": [3, 2, 2, 3, 4, 4] },
+    { "id": "a22", "x": 8, "y": 11, "dir": "Down", "color": "Blue", "pathX": [8, 8, 7, 6, 5, 5, 5, 5, 5, 5, 5], "pathY": [11, 12, 12, 12, 12, 11, 10, 9, 8, 7, 6], "lockParents": ["a16"] },
+    { "id": "a23", "x": 3, "y": 12, "dir": "Down", "color": "Grey", "pathX": [3, 3, 3, 3, 3, 4, 4, 4], "pathY": [12, 11, 10, 9, 8, 8, 7, 6] },
+    { "id": "a24", "x": 9, "y": 12, "dir": "Down", "color": "Green", "pathX": [9, 9, 8, 7, 6, 5, 4, 4, 4, 4, 4], "pathY": [12, 13, 13, 13, 13, 13, 13, 12, 11, 10, 9], "lockParents": ["a14"] },
+    { "id": "a25", "x": 3, "y": 13, "dir": "Down", "color": "Red", "pathX": [3, 3, 4, 5, 6, 7, 8, 9, 10, 10], "pathY": [13, 14, 14, 14, 14, 14, 14, 14, 14, 13] }
+  ],
+  "buttons": [
+  ],
+  "books": [
+    { "id": "book_a4", "x": 4, "y": 17, "blockedArrowId": "a4", "keyArrowId": "a2" },
+    { "id": "book_a6", "x": 0, "y": 9, "blockedArrowId": "a6", "keyArrowId": "a0" },
+    { "id": "book_a14", "x": 7, "y": 2, "blockedArrowId": "a14", "keyArrowId": "a10" },
+    { "id": "book_a15", "x": 12, "y": 0, "blockedArrowId": "a15", "keyArrowId": "a5" },
+    { "id": "book_a19", "x": 1, "y": 6, "blockedArrowId": "a19", "keyArrowId": "a14" },
+    { "id": "book_a22", "x": 5, "y": 5, "blockedArrowId": "a22", "keyArrowId": "a16" },
+    { "id": "book_a24", "x": 4, "y": 5, "blockedArrowId": "a24", "keyArrowId": "a14" }
+  ],
+  "backpacks": [
+    { "id": "bp1", "x": 8, "y": 1, "dir": "Up" }
+  ]
+}

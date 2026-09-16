@@ -1,0 +1,14 @@
+{
+  "id": 8,
+  "gridWidth": 6,
+  "gridHeight": 8,
+  "movesLimit": 11,
+  "solution": ["a0", "a1", "a2"],
+  "arrows": [
+    { "id": "a0", "x": 4, "y": 6, "dir": "Left", "color": "DarkBlue", "pathX": [4, 3, 2, 1, 0], "pathY": [6, 6, 6, 6, 6] },
+    { "id": "a1", "x": 4, "y": 5, "dir": "Down", "color": "Blue", "pathX": [4, 4, 4, 4], "pathY": [5, 4, 3, 2] },
+    { "id": "a2", "x": 3, "y": 4, "dir": "Up", "color": "Red", "pathX": [3, 2, 2], "pathY": [4, 4, 5] }
+  ],
+  "buttons": [
+  ]
+}

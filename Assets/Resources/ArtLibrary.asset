@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c4e9a2b1d835f64a0e8c3b5921746da, type: 3}
+  m_Name: ArtLibrary
+  m_EditorClassIdentifier: 
+  bgMenu: {fileID: 21300000, guid: 29c3ba1a41ef55043a8a3cc467306eeb, type: 3}
+  bgBoard: {fileID: 21300000, guid: beb6b1cf7ce698a40bd043e99c26bef2, type: 3}
+  bgDimmer: {fileID: 21300000, guid: 74b87d77f35cf18438d026cf52cf7a81, type: 3}
+  bgWin: {fileID: 21300000, guid: b05a37a409a520540b83cbead311332d, type: 3}
+  bgLose: {fileID: 21300000, guid: 49287f7d861ca27489110f407bf42e09, type: 3}
+  btn: {fileID: 21300000, guid: b3005e9ab508e9f49a18902b958715c9, type: 3}
+  btnHint: {fileID: 21300000, guid: 5b5d80cf8b68f834a87f2a5e0f3f31f9, type: 3}
+  btnUndo: {fileID: 21300000, guid: 405cb50e0c059d74bb78b16464d07c3d, type: 3}
+  btnRestart: {fileID: 21300000, guid: ed49eff27cba0e1479f25f96b12dd894, type: 3}
+  iconBack: {fileID: 21300000, guid: 02a47d9c251997d48835c708fd7964ff, type: 3}
+  iconGear: {fileID: 21300000, guid: 8523043e2abc765488247cb505ed3a6d, type: 3}
+  iconHint: {fileID: 21300000, guid: d153754e9d25b0843b4bc593e734f8fa, type: 3}
+  iconUndo: {fileID: 21300000, guid: d5d6eb3a821bbfd468850486ce4f6a12, type: 3}
+  iconRestart: {fileID: 21300000, guid: 3e1e65ea576ef084196fa43436ec1423, type: 3}
+  iconClose: {fileID: 21300000, guid: 7859cb7dc3f6db54b82baaa3e384e038, type: 3}
+  iconSound: {fileID: 21300000, guid: 6d58b22851c20f9498d677c78f0d4223, type: 3}
+  iconSoundOff: {fileID: 21300000, guid: f5732832bd1f1944ab033a609f4a0483, type: 3}
+  iconMusic: {fileID: 21300000, guid: 2a76a72abe1f6f041ae1e38d4a9080d3, type: 3}
+  iconMusicOff: {fileID: 21300000, guid: 8b2eeeca97f01fa4484913fc1f7c9f24, type: 3}
+  iconExtraMove: {fileID: 21300000, guid: 1d34e3f353e937a41961de1a71661623, type: 3}
+  badgeCount: {fileID: 21300000, guid: 724b0221533c8dd4e9a22cbecc83f6d0, type: 3}
+  uiRounded: {fileID: 21300000, guid: 72fde19aa20a7df458430bc81abf4184, type: 3}
+  uiCapsule: {fileID: 21300000, guid: 721d63b9a19869748ad6b34de31cc9a2, type: 3}
+  uiCard: {fileID: 21300000, guid: 67e3c8a8405210a4184f797c020201b6, type: 3}
+  sliderTrack: {fileID: 21300000, guid: 02c18e2c574c6d34f81de9c3eb478353, type: 3}
+  sliderFill: {fileID: 21300000, guid: 06b41902d318bc04d8df136670e50310, type: 3}
+  sliderKnob: {fileID: 21300000, guid: 582749f44f1d7b24f90260402d2c98d9, type: 3}
+  frameCharacter: {fileID: 21300000, guid: d15690d288628014ba575253c54e300f, type: 3}
+  bowl0: {fileID: 21300000, guid: 18c46ce5dbac1b640b42b116db584705, type: 3}
+  bowl25: {fileID: 21300000, guid: 1d116f1a9a7949c4986bfd22d13ca909, type: 3}
+  bowl50: {fileID: 21300000, guid: 292daba328a6af64197ac4a8f7894f9d, type: 3}
+  bowl75: {fileID: 21300000, guid: e8c7772e74919b5428c6ea74a920aad1, type: 3}
+  bowl100: {fileID: 21300000, guid: 517afbd51909c3e448e90fd977c87932, type: 3}
+  candyIcon: {fileID: 21300000, guid: 5c933d28527b7a947b18e06f279ba501, type: 3}
+  characterIdle: {fileID: 21300000, guid: 3fd71fdc22d57f547a9d9ff23d756f8e, type: 3}
+  characterHappy: {fileID: 21300000, guid: ba8934bbc0347f0419f8c01c0e975367, type: 3}
+  characterSad: {fileID: 21300000, guid: 68b275638fed5a34ba35645c55eac623, type: 3}
+  characterFace: {fileID: 21300000, guid: 3fd71fdc22d57f547a9d9ff23d756f8e, type: 3}
+  arrowHead: {fileID: 21300000, guid: 1eb4408f105cea94bb746791fdaff884, type: 3}
+  arrowRed: {fileID: 21300000, guid: 13a2164a8edcca344886b1804683223e, type: 3}
+  arrowBlue: {fileID: 21300000, guid: 2dba44c29d01f514eb9a1d4d07755db5, type: 3}
+  arrowNavy: {fileID: 21300000, guid: e8092ff625f378b4cbbac5a482c0a31d, type: 3}
+  arrowGreen: {fileID: 21300000, guid: abe8a6994f93ca944a4948caa4b7b148, type: 3}
+  arrowYellow: {fileID: 21300000, guid: 2de50b3b61cf03544842a9945d8ca3ba, type: 3}
+  arrowOrange: {fileID: 21300000, guid: 7ae1fd14cf4f58946a7fc957346f26bc, type: 3}
+  arrowGrey: {fileID: 21300000, guid: 1eb4408f105cea94bb746791fdaff884, type: 3}
+  bpStripBg: {fileID: 21300000, guid: 31cb95a883e3e3a4189d39f3666ea46d, type: 3}
+  bpSlotFree: {fileID: 21300000, guid: 6842a70b27a034042b9b958b677a8bca, type: 3}
+  bpSlotPremium: {fileID: 21300000, guid: b319b417d0bf138479d62a37b3dd5231, type: 3}
+  bpSlotLocked: {fileID: 21300000, guid: 0bd5c4295aa65614ebfa8e8d25ddce47, type: 3}
+  iconCheck: {fileID: 21300000, guid: c45f14ce068483441aa807c2f49d5817, type: 3}
+  iconCoin: {fileID: 21300000, guid: 59cb6c7871f61294aaf59853a296babf, type: 3}
+  iconCoinsStack: {fileID: 21300000, guid: 0820c74bcebb1da43a2cd1e518bf3d8c, type: 3}
+  slotShopSelected: {fileID: 21300000, guid: a5209a7b8a6141847a3a46feb0a60368, type: 3}
+  schoolBook: {fileID: 21300000, guid: e2650770e678dba4780a570b2c0f9712, type: 3}
+  schoolBookIcon: {fileID: 21300000, guid: 12b35428154fa914aa90e1bf7ac58ed7, type: 3}
+  schoolPointerPivot: {fileID: 21300000, guid: 6d5ebccfac522f443943a5684e2825d7, type: 3}
+  schoolPointerBody: {fileID: 21300000, guid: 66da60497e07a8545bde30b5e37ed2d8, type: 3}
+  schoolBackpack: {fileID: 21300000, guid: 145b0869e64c6b04bac915af15b44997, type: 3}
+  schoolLevelOpen: {fileID: 0}
+  schoolLevelLocked: {fileID: 0}
+  schoolIdleHand: {fileID: 21300000, guid: 1b7774eb0ad16a5429a5f1d88848100b, type: 3}
+  playModeCard: {fileID: 0}

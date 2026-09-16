@@ -1,0 +1,15 @@
+{
+  "id": 1,
+  "gridWidth": 6,
+  "gridHeight": 8,
+  "movesLimit": 8,
+  "solution": ["vertical", "topZig", "blueL", "redZig"],
+  "arrows": [
+    { "id": "vertical", "x": 5, "y": 6, "dir": "Down", "color": "DarkBlue", "pathX": [5, 5, 5, 5, 5], "pathY": [6, 5, 4, 3, 2] },
+    { "id": "blueL", "x": 1, "y": 3, "dir": "Up", "color": "Blue", "pathX": [1, 1, 1, 2, 3], "pathY": [3, 4, 5, 5, 5] },
+    { "id": "redZig", "x": 1, "y": 2, "dir": "Up", "color": "Red", "pathX": [1, 2, 2, 3], "pathY": [2, 2, 1, 1] },
+    { "id": "topZig", "x": 1, "y": 6, "dir": "Right", "color": "DarkBlue", "pathX": [1, 1, 2, 3, 4], "pathY": [6, 7, 7, 7, 7] }
+  ],
+  "buttons": [
+  ]
+}

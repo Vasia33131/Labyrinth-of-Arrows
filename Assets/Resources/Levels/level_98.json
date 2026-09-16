@@ -1,0 +1,27 @@
+{
+  "id": 98,
+  "gridWidth": 12,
+  "gridHeight": 16,
+  "movesLimit": 17,
+  "solution": ["a0", "a1", "a2", "a3", "a4", "a5", "a6", "a7", "a8", "a9", "a10", "a11", "a12", "a13", "a14", "a15"],
+  "arrows": [
+    { "id": "a0", "x": 0, "y": 9, "dir": "Up", "color": "DarkBlue", "pathX": [0, 0, 0, 0, 0], "pathY": [9, 10, 11, 12, 13] },
+    { "id": "a1", "x": 0, "y": 2, "dir": "Down", "color": "Blue", "pathX": [0, 0, 0], "pathY": [2, 1, 0] },
+    { "id": "a2", "x": 0, "y": 7, "dir": "Down", "color": "Grey", "pathX": [0, 0, 0, 0], "pathY": [7, 6, 5, 4] },
+    { "id": "a3", "x": 3, "y": 14, "dir": "Up", "color": "Green", "pathX": [3, 4, 4], "pathY": [14, 14, 15] },
+    { "id": "a4", "x": 7, "y": 14, "dir": "Up", "color": "Red", "pathX": [7, 6, 6], "pathY": [14, 14, 15], "lockParents": ["a2"] },
+    { "id": "a5", "x": 2, "y": 2, "dir": "Left", "color": "Yellow", "pathX": [2, 2, 1], "pathY": [2, 1, 1] },
+    { "id": "a6", "x": 3, "y": 13, "dir": "Up", "color": "DarkBlue", "pathX": [3, 2, 2], "pathY": [13, 13, 14] },
+    { "id": "a7", "x": 8, "y": 2, "dir": "Right", "color": "DarkBlue", "pathX": [8, 8, 9], "pathY": [2, 1, 1] },
+    { "id": "a8", "x": 3, "y": 10, "dir": "Up", "color": "Blue", "pathX": [3, 4, 4], "pathY": [10, 10, 11], "lockParents": ["a1"] },
+    { "id": "a9", "x": 6, "y": 7, "dir": "Right", "color": "Grey", "pathX": [6, 6, 6, 6, 7], "pathY": [7, 6, 5, 4, 4] },
+    { "id": "a10", "x": 5, "y": 10, "dir": "Up", "color": "Green", "pathX": [5, 6, 6], "pathY": [10, 10, 11] },
+    { "id": "a11", "x": 3, "y": 9, "dir": "Up", "color": "Red", "pathX": [3, 2, 2], "pathY": [9, 9, 10] },
+    { "id": "a12", "x": 4, "y": 3, "dir": "Right", "color": "Yellow", "pathX": [4, 4, 5, 6], "pathY": [3, 2, 2, 2] },
+    { "id": "a13", "x": 5, "y": 6, "dir": "Up", "color": "DarkBlue", "pathX": [5, 4, 4], "pathY": [6, 6, 7] },
+    { "id": "a14", "x": 3, "y": 5, "dir": "Up", "color": "DarkBlue", "pathX": [3, 2, 2], "pathY": [5, 5, 6], "lockParents": ["a12"] },
+    { "id": "a15", "x": 8, "y": 6, "dir": "Left", "color": "Blue", "pathX": [8, 8, 7], "pathY": [6, 5, 5] }
+  ],
+  "buttons": [
+  ]
+}

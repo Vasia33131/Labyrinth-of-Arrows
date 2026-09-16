@@ -1,0 +1,38 @@
+{
+    "idSave": 197,
+    "unpuzzleRevision": 197,
+    "unpuzzleImported": true,
+    "playMode": "Normal",
+    "campaignLevel": 24,
+    "schoolLevel": 1,
+    "schoolUnlocked": 8,
+    "schoolTutorialSeen": true,
+    "gold": 2000,
+    "hintsCount": 3,
+    "undoCount": 2,
+    "extraMoveCount": 1,
+    "hintsLastClaimDate": "2026-09-13",
+    "battlePassCompletedSchools": 127,
+    "battlePassPremium": true,
+    "battlePassClaimedFree": 3,
+    "battlePassClaimedPremium": 3,
+    "battlePassSchoolSynced": true,
+    "unlockedSkins": [
+        "default",
+        "skin_witch",
+        "skin_dark_elf",
+        "skin_cyberpunk"
+    ],
+    "selectedSkin": "skin_witch",
+    "unlockedBackgrounds": [
+        "bg_default",
+        "bg_witch_grove",
+        "bg_night_elf",
+        "bg_neon_city"
+    ],
+    "selectedBackground": "bg_default",
+    "soundOn": true,
+    "musicOn": true,
+    "hasPlayed": true,
+    "goldAwardedLevel": 24
+}

@@ -1,0 +1,6 @@
+<linker>
+  <assembly fullname="Assembly-CSharp">
+    <type fullname="YG.SavesYG" preserve="all" />
+    <type fullname="YG.YG2" preserve="all" />
+  </assembly>
+</linker>
