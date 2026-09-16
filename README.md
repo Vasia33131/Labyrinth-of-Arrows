@@ -2,14 +2,6 @@
 
 Проект: Unity **2022.3.62f1**, URP 2D, старый Input Manager (`Input.*`), uGUI. Таргет — WebGL / Яндекс Игры.
 
-## Запуск
-1. Открой проект `C:\Users\diman\strelki` в Unity Hub.
-2. Дождись компиляции, затем меню: **Tools → Unpuzzle → Setup Project (Step 1)**.
-   Скрипт сам создаст: слои `Arrow`, `ButtonSwitch`, спрайты-заглушки, префабы `Arrow` и `ButtonSwitch`,
-   сцену `Assets/Scenes/GameScene.unity` со всеми проставленными ссылками, и добавит сцену в Build Settings.
-3. Открой `Assets/Scenes/GameScene.unity` → Play. Спавнится тестовая сетка 5×7, тап убирает стрелку,
-   счётчики в UI обновляются, при 0 стрелок — панель победы.
-
 ## Иерархия сцены
 ```
 GameScene
@@ -81,4 +73,4 @@ GameScene
 
 ## Что дальше (шаги 5+)
 - ШАГ 5: генератор 100 уровней + `Resources/Levels/level_XX.json`.
-- ШАГ 6: Yandex Games SDK (реклама, лидерборды, сохранения), WebGL-настройки.
+- ШАГ 6: Yandex Games SDK (реклама, сохранения), WebGL-настройки.
