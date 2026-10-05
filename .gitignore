@@ -71,3 +71,16 @@ obj/
 /[Aa]rtifacts/
 /[Cc]odeCoverage/
 
+
+# IDE caches
+.vs/
+.vscode/
+*.opendb
+*.VC.db
+
+# Builds, logs and local backups
+/[Bb]uilds/
+*.apk
+*.aab
+*.log
+/_audit-backup-*/
